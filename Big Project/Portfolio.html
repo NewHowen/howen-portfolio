@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Howen's 3D Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #111;
+      color: #eee;
+      scroll-behaviour: smooth;
+    }
+    header {
+      background: #222;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: #aaa;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 4rem 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #555;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .gallery {
+      display: flex;
+      overflow-x: auto;
+      gap: 1rem;
+      padding-bottom: 1rem;
+    }
+    .gallery-item {
+      flex: 0 0 auto;
+      width: 300px;
+      background: #222;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    }
+    .gallery-item img {
+      width: 100%;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Howen's 3D Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#mechs">Mechs</a>
+      <a href="#figures">Figures</a>
+      <a href="#misc">Misc</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <img src="./me.png" alt="me">
+    <p>
+    I’m a student specialising in 3D LEGO-based modelling and mechanical design. I use Bricklink Studio 2.0 to create original compositions and technical concept pieces, ranging from mechanical units to stylised figures.
+  </p>
+  <p>
+    My design philosophy blends realistic mechanical structures with science-fiction aesthetics, prioritising modularity, silhouette clarity, and proportion accuracy. I often draw inspiration from foreign media such as Armoured Core and Mobile Suit Gundam.
+  </p>
+  <p>
+    These models are developed for use as animation frames, scene layouts, and concept art assets. I supplement my workflow with tools like Canva, GIMP, and Adobe Photoshop for post-processing, lighting tests, and presentation refinement.
+  </p>
+  <p>
+    I’m experienced in organising assets for version control, clean exports, and collaborative iteration. I work comfortably in team environments, adapting to shifting creative pipelines while maintaining visual consistency and detail-oriented builds.
+  </p>
+  </section>
+
+<section id="mechs">
+  <h2>Mechs</h2>
+
+  <!-- Legacy Units -->
+  <h3 class="subsection-title">Legacy Units (2023–2024)</h3>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="./Firefly_6.png" alt="Firefly - prototype for payload integration">
+      <strong>Firefly</strong><br>
+      Early-stage prototype developed for experimental payload integration and mobility tests.
+    </div>
+    <div class="gallery-item">
+      <img src="./Prototype_4.png" alt="The Prototype - joint and articulation demonstrator">
+      <strong>The Prototype</strong><br>
+      Demonstrates foundational articulation, modular joint systems, and structural balance.
+    </div>
+    <div class="gallery-item">
+      <img src="./Red_Strings_5.png" alt="Red Strings - atmospheric lighting concept with dual-pilot layout">
+      <strong>Red Strings</strong><br>
+      Concept unit with dual-pilot configuration and emphasis on environmental light testing.
+    </div>
+  </div>
+
+  <!-- Flamberge Series -->
+  <h3 class="subsection-title">Flamberge Series (2025)</h3>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="./Flamberge_6.png" alt="Flamberge Commander Early-Type - training prototype">
+      <strong>Flamberge Commander Early-Type</strong><br>
+      Lightweight training frame for reaction benchmarking under various armament profiles.
+    </div>
+    <div class="gallery-item">
+      <img src="./Flamberge_Melee_Type_3.png" alt="Flamberge Melee-Type - direct engagement unit">
+      <strong>Flamberge Melee-Type</strong><br>
+      Close-range unit configured for kinetic testing, grip balance, and stability refinement.
+    </div>
+    <div class="gallery-item">
+      <img src="./Flamberge_Commandos_2-copy.png" alt="Flamberge Sniper-Type - long-range specialist variant">
+      <strong>Flamberge Sniper-Type</strong><br>
+      Precision rig for low-recoil stabilisation trials and sensor calibration.
+    </div>
+    <div class="gallery-item">
+      <img src="./Rubicon_RED.png" alt="Rubicon - high-speed transformable test unit">
+      <strong>Rubicon</strong><br>
+      Transformable aerial platform for multi-form mobility and long-range engagement.
+    </div>
+    <div class="gallery-item">
+      <img src="./Flamberge_Stealth_Type_5.png" alt="Flamberge Stealth-Type - terrain-adaptive recon unit">
+      <strong>Flamberge Stealth-Type</strong><br>
+      Low-visibility unit equipped with radar-absorbent panelling for deep-recon scenarios.
+    </div>
+  </div>
+
+  <!-- Bao Feng Series -->
+  <h3 class="subsection-title">Bao Feng Series (2025)</h3>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="./Bao_Feng_5.png" alt="Bao Feng MKI Flight-Type - flight-capable interceptor">
+      <strong>Bao Feng MKI Flight-Type</strong><br>
+      Agile, flight-capable frame with modular boosters and aerodynamic limb articulation.
+    </div>
+    <div class="gallery-item">
+      <img src="./Liu_Bei_3.png" alt="Bao Feng Xiyin Custom - artillery variant">
+      <strong>Bao Feng Xiyin Custom</strong><br>
+      Custom artillery platform with upper-torso recoil dampening and long-range payload support.
+    </div>
+    <div class="gallery-item">
+      <img src="./Gaja_4.png" alt="Gaja - suppression-type mech">
+      <strong>Gaja</strong><br>
+      Multi-barrel suppression system designed for area denial and prolonged fire support.
+    </div>
+    <div class="gallery-item">
+      <img src="./Qianliyan_4.png" alt="Qianliyan - naval rapid engagement unit">
+      <strong>Qianliyan</strong><br>
+      Lightweight naval frame optimised for skirmish strikes and disengagement response drills.
+    </div>
+    <div class="gallery-item">
+      <img src="./Hei_Sui_5.png" alt="Hei Zui - neural sync experimental unit">
+      <strong>Hei Zui</strong><br>
+      Prototype neuro-sync platform for cognitive-response modelling and control latency testing.
+    </div>
+  </div>
+</section>
+
+  <section id="figures">
+  <h2>Figures</h2>
+  <div class="gallery">
+
+    <div class="gallery-item">
+      <img src="./David_Wilkins_3.png" alt="David Wilkins SD Model">
+      <strong>David Wilkins (SD)</strong><br>
+      Stylised student-class character model designed for spy-themed narratives.
+    </div>
+
+    <div class="gallery-item">
+      <img src="./Cassidy_Hartwell_3.png" alt="Cassidy Hartwell SD Model">
+      <strong>Cassidy Hartwell (SD)</strong><br>
+      Expressive figure rig with exaggerated posing capability, optimised for comedic framing.
+    </div>
+
+    <div class="gallery-item">
+      <img src="./Luna_Everbright_4.png" alt="Luna Everbright SD Model">
+      <strong>Luna Everbright (SD)</strong><br>
+      Light-magic character render built for pastel colour range testing and silk ensemble composition.
+    </div>
+
+    <!-- Add more if applicable -->
+
+  </div>
+</section>
+
+  <section id="misc">
+  <h2>Miscellaneous</h2>
+  <div class="gallery">
+
+    <div class="gallery-item">
+      <img src="./Rora_birthday.png" alt="Birthday Scene">
+      <strong>Birthday</strong><br>
+      Diorama using preexisting models of mine, created for distance-layering studies and celebratory tone practice.
+    </div>
+
+    <div class="gallery-item">
+      <img src="./Ice_Cream_4.png" alt="Ice Cream Truck">
+      <strong>Cyberpunk Ice Cream Truck</strong><br>
+      Speculative vehicle concept rendered for colour palette testing and prop design.
+    </div>
+
+    <!-- Add more as needed -->
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    📧 <a href="mailto:howenlaptop@gmail.com" style="color: #aaa;">howenlaptop@gmail.com</a><br>
+    📞 +60 11-1753 4033<br>
+    📍 Seremban 2, Negeri Sembilan, Malaysia
+  </p>
+</section>
+
+<footer>
+  &copy; 2025 New Howen | Built for visual portfolio presentation only.
+</footer>
+
+</body>
+</html>
